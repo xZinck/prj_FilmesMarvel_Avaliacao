@@ -1,0 +1,169 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows_T2C/Email/wf_Send_EmailInicio.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "var_strBodyEmail&Sequence_76",
+        "var_strCorpoEmail&Sequence_76"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "arg_inStrDestinatario",
+        "arg_inStrUsername",
+        "arg_inSecSecurePassword",
+        "arg_inStrEnderecoStream",
+        "arg_inStrAssuntoEmail",
+        "arg_inStrNomeRobo",
+        "arg_inArrScreenshotFiles"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "var_strTestee&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows_T2C/wf_Get_ItemErro.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "var_strNewFile&Sequence_27",
+        "var_strCorpoEmail&Sequence_28"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "arg_inStrDestinatario",
+        "arg_inStrScreenshotPath",
+        "arg_ioArrScreenshotFiles",
+        "arg_inQueTransactionItem",
+        "arg_inExpSystemException",
+        "arg_inDicConfig",
+        "arg_inStrUsername",
+        "arg_inSecSecurePassword",
+        "arg_inStrAssuntoEmail"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "argudt_datatable"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "utils/sq_CriarFila.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "var_dtFilmesMarvel&Sequence_36"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "arg_outDtQueueTransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows_T2C/Email/wf_Send_EmailFinal.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "var_strCorpoEmail&Sequence_70"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "arg_inArrScreenshotFiles",
+        "arg_inStrDestinatario",
+        "arg_inStrUsername",
+        "arg_inSecSecurePassword",
+        "arg_inStrAssuntoEmail",
+        "arg_inStrNomeProjeto",
+        "arg_inDatHoraFinal",
+        "arg_inDatHoraInicio",
+        "arg_inStrCorpoEmail",
+        "arg_inDicConfig",
+        "arg_inStrNomeRobo"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflows_T2C/wf_Write_LogInicioFim.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "arg_inStrWfName",
+        "arg_inBooInicio"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
